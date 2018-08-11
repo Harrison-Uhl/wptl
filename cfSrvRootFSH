@@ -1,4 +1,7 @@
-# $Srv/env/cfSrvRootFSH.env 20180811
+# $Srv/env/cfSrvRootFSH 20180811
+if [[ ! -z "$1" ]]; then export Srv=$1 ; fi
+if [[ -z "$Srv" ]]; then export Srv=/srv ; fi
+
 export  SrvBin=$Srv/bin
 export  SrvEnv=$Srv/env
 export  SrvEtc=$Srv/etc
