@@ -4,7 +4,7 @@ export PS1="\[\033[1;33m\]<CF> \$Srv \[\033[0;36m\][\w]\\$\[\033[0m\] "
 export DbSrvHst=127.0.0.1  # ==> SrvStk.env
 export WpDlUrl=https://wordpress.org
 export WpPiDlUrl=https://downloads.wordpress.org/plugin
-.  $Srv/env/cfSrvRootFSH.env
+.  $Srv/env/cfSrvRootFSH
 lsc () { ls --color=auto $@; }
 command_not_found_handle () { echo "myEnv.sh >> cmd not found >>>>> $1"; 
 
